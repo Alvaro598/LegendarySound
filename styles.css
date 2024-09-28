@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Bungee", sans-serif;
+
+}
+
+
+#Bienvenidos {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(/LegendarySound/Img/estudio.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+
+}
+
+#Bienvenidos div {
+    padding-top: 15%;
+}
+
+
+#Bienvenidos h1 {
+    text-align: center;
+    color: rgb(250, 246, 0);
+}
+
+
+.container-fluid p {
+    padding: 5px;
+    text-align: center;
+    color: white;
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.navbar ul li a:hover {
+    color: rgb(250, 246, 0);
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 2px 4px;
+    font-size: 12px;
+    background-color: black;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+
+    margin-right: 10px;
+}
+
+.search-container button {
+    padding: 5px 10px;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    border: 1px;
+    border-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    color: rgb(250, 246, 0);
+}
+
+.container h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon .bi-fire {
+    margin-left: 10px;
+    margin-bottom: 12px;
+
+    color: rgb(250, 246, 0);
+}
+
+
+
+.container-fluid h5 {
+    font-size: 12px;
+    color: white;
+}
+
+
+.card {
+    background: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: scale-down;
+    width: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+
+    text-align: center;
+    margin-top: auto;
+
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.868);
+    color: rgb(250, 246, 0);
+}
+
+
+.row {
+    justify-content: center;
+}
+
+.col-sm-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.row {
+    justify-content: center;
+}
+
+.col-sm-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.presentacion {
+    text-align: center;
+
+}
+
+.presentacion {
+    background-color: #fff;
+}
+
+.presentacion h1 {
+    color: black;
+    text-align: left;
+    padding-bottom: 50px;
+    border-bottom: 2px solid black;
+}
+
+
+.imagen {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anterior,
+.siguiente {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+.card h5 {
+
+    font-size: 15px;
+}
+
+.card p {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    font-size: 14px;
+    text-align: left;
+
+}
+
+.formulario {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px 50px 50px 50px;
+    background-image: url(/LegendarySound/img/pexels-alancabello-1492364.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 80%;
+}
+
+#col .img-fluid {
+    height: 20rem;
+    width: 15rem;
+    max-height: 70rem;
+    max-width: 50rem;
+    padding: 10px;
+
+}
+
+
+
+.Nosotros {
+    background-color: white;
+
+}
+
+.Nosotros h1 {
+    color: black;
+    text-align: center;
+    padding: 30px 10px 30px 10px;
+    border-bottom: 1px solid black;
+
+}
+
+
+
+#col {
+    border-right: 1px solid black;
+    padding: 50px 200px 50px 1px;
+}
+
+#text {
+    font-family: "Rubik", sans-serif;
+    padding-left: 100px;
+    text-align: left;
+    font-size: 12px;
+}
+
+#Descubre {
+    font-family: "Rubik", sans-serif;
+    padding-left: 100px;
+    text-align: left;
+    font-size: 15px;
+}
+
+#presentacion {
+    background-color: #fff;
+
+
+}
+
+#presentacion h1 {
+    color: black;
+    padding: 30px 20px 30px 20px;
+    border-bottom: 1px solid black;
+}
+
+video {
+    margin: 0 auto;
+    width: 60%;
+    display: block;
+    padding: 30px 30px 30px 30px;
+
+}
+
+.footer {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+@media (min-width: 576px) {
+
+    .card {
+        width: 48%;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    .card {
+        width: 23%;
+    }
+}
